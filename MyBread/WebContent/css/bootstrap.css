@@ -2639,20 +2639,23 @@ th {
 
 .table {
 	width: 100%;
-	max-width: 100%;
-	margin-bottom: 20px;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td,
 	.table>tbody>tr>td, .table>tfoot>tr>td {
 	padding: 8px;
 	line-height: 1.42857143;
-	vertical-align: top;
-	border-top: 1px solid #ddd;
+	vertical-align: center;
+	border-top: 3px solid #ddd;
+	height: 80px;
 }
 
 .table>thead>tr>th {
-	vertical-align: bottom;
+	vertical-align: center;
 	border-bottom: 2px solid #ddd;
 }
 
@@ -3489,8 +3492,8 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-primary:hover {
 	color: #fff;
-	background-color: #286090;
-	border-color: #204d74;
+	background-color: #a96e09;
+	border-color: #a96e09;
 }
 
 .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary
@@ -7537,7 +7540,9 @@ button.close {
 }
 
 .pull-right {
-	float: right !important;
+	position: relative;
+    left: 80%;
+    margin-bottom: 20px;
 }
 
 .pull-left {
