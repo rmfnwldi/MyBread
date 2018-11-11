@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	text-align: center;
+}
+
+body {
+	height: 500px;
+	width: 500px;
+	display: inline-block;
+}
+
+#container {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+}
+
+#title {
+	font-size: xx-large;
+	text-align: center;
+	display: inline-block;
+	background-color: #BD9424;
+	height: 100px;
+	width: 100%;
+	line-height: 95px;
+}
+
+#text {
+	display: inline-block;
+	text-align: left;
+	border: 3px solid black;
+	margin: 0;
+	padding: 0;
+	width: 99%;
+	height: 80%;
+	resize: none;
+	overflow: auto;
+}

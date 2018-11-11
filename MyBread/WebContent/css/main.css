@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{margin: 0px; padding: 0px;}
+
+
+#container>div{
+
+	list-style-type: none;
+	margin-top: -3.64px;
+
+}
+
+#container>div>img {
+	width: 100%;
+}
+
+

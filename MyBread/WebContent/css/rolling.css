@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#container {
+	border: 1px solid black;
+	display: inline-block;
+	z-index: 0;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#imgs {
+	width: 528px;
+	height: 176px;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#imgs>ul {
+	list-style: none;
+	margin-left: 0px;
+}
+
+#imgs>ul>li {
+	float: left;
+}
+
+#imgs>a {
+	clear: both;
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	top: 70px;
+	background-color: yellow;
+	border-radius: 50%;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+}
+
+#prev {
+	left: 0px;
+	cursor: pointer;
+}
+
+#next {
+	left: 480px;
+	cursor: pointer;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+pre{
+	margin-top: -4px;
+	padding: 0;
+}
+
+footer {
+	margin: 0;
+	padding: 0;
+	color: white;
+	width: 100%;
+	background-color: gray;
+	text-align: right;
+	height: 100%;
+	width: 100%;
+}w
